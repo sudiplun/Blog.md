@@ -99,6 +99,10 @@
   
   Camera controls for Linux
 
+- V4L2
+
+  for systemd webcam management.
+
 - htop
 
 - ranger
