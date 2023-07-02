@@ -16,8 +16,8 @@ USE Employee;
 CREATE TABLE EmployeeInfo (
     EmployeeId INT IDENTITY(1,1) PRIMARY KEY,
     EmployeeName NVARCHAR(200),
-    EmployeeAddress NVARCHAR(200), 
-    PhoneNumber NVARCHAR(200), 
+    EmployeeAddress NVARCHAR(200),
+    PhoneNumber NVARCHAR(200),
     Email NVARCHAR(200),
     DepartmentId INT
 );
@@ -38,7 +38,7 @@ CREATE TABLE Department (
 CREATE TABLE EmployeeSalary (
     EmployeeSalaryId INT IDENTITY(1,1) PRIMARY KEY,
     EmployeeId INT,
-    MonthName NVARCHAR(100), 
+    MonthName NVARCHAR(100),
     Salary DECIMAL(18,2)
 );
 ```
@@ -54,7 +54,7 @@ CREATE PROCEDURE SpEmployeeInfo
     @Email NVARCHAR(200),
     @DepartmentId INT
 AS
-BEGIN 
+BEGIN
 
 INSERT INTO EmployeeInfo
  VALUES (@EmployeeName, @EmployeeAdress, @PhoneNumber, @Email, @DepartmentId);
@@ -76,7 +76,7 @@ EXEC [dbo].[SpEmployeeInfo]
 
 ```sql
 INSERT INTO EmployeeInfo (EmployeeName, EmployeeAddress, PhoneNumber, Email, DepartmentId)
-VALUES 
+VALUES
     ('John Doe', '123 Main St', '555-1234', 'johndoe@example.com', 1),
     ('Jane Smith', '456 Oak St', '555-5678', 'janesmith@example.com', 2),
     ('Bob Johnson', '789 Maple Ave', '555-9012', 'bobjohnson@example.com', 1);
@@ -108,11 +108,11 @@ EXEC SpDepartment
 ```sql
 CREATE PROCEDURE SpEmployeeSalary
     @EmployeeId INT,
-    @MonthName NVARCHAR(100), 
+    @MonthName NVARCHAR(100),
     @Salary DECIMAL(18,2)
-AS 
+AS
 BEGIN
-    INSERT INTO EmployeeSalary(EmployeeId, MonthName, Salary) 
+    INSERT INTO EmployeeSalary(EmployeeId, MonthName, Salary)
     VALUES(@EmployeeId, @MonthName, @Salary);
 END;
 ```

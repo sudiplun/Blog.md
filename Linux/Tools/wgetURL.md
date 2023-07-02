@@ -1,6 +1,7 @@
 ```bash
 wget --mirror --convert-links --adjust-extension --page-requisites --no-parent [URL]
 ```
+
 Where:
 
 - `--mirror` tells wget to download the entire website recursively.

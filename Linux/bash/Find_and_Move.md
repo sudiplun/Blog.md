@@ -1,6 +1,6 @@
 # Find and Move
 
-You can use the find command to recursively search for certain files in a directory and its subdirectories, and then use  
+You can use the find command to recursively search for certain files in a directory and its subdirectories, and then use
 
 or execution another command.
 
@@ -14,7 +14,7 @@ or execution another command.
 ## Example:
 
 ```bash
-find /path/to/directory -type f -name "*.jpg" -exec mv {} ~/ \; 
+find /path/to/directory -type f -name "*.jpg" -exec mv {} ~/ \;
 ```
 
 ### OR for current directory.

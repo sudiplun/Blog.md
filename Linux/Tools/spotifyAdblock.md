@@ -8,9 +8,9 @@
 sudo apt-get install build-essential fakeroot devscripts
 ```
 
-* * *
+---
 
-***INSTALL  RUST WITH THIS COMMANDS***
+**_INSTALL  RUST WITH THIS COMMANDS_**
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
@@ -19,9 +19,9 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 OR GO-TO
 https://www.rust-lang.org/tools/install
 
-* * *
+---
 
-***IF YOU DON'T HAVE || INSTALL SPOTIFY CLIENT WITH THIS COMMANDS***
+**_IF YOU DON'T HAVE || INSTALL SPOTIFY CLIENT WITH THIS COMMANDS_**
 
 You will first need to configure our debian repository:
 
@@ -39,9 +39,9 @@ sudo apt-get update && sudo apt-get install spotify-client
 OR GO-TO
 https://www.spotify.com/us/download/linux/
 
-* * *
+---
 
-***spotify-adblock***
+**_spotify-adblock_**
 
 More details on this [repo spotify-adblock](https://github.com/abba23/spotify-adblock)
 
@@ -64,7 +64,7 @@ LOOKS LIKE
 You can integrate it with your desktop environment (create desktop icon.)
 
 ```bash
-wget "https://raw.githubusercontent.com/sudiplun/.desktop/main/SpotifyAdblock.desktop" -P ~/.local/share/applications 
+wget "https://raw.githubusercontent.com/sudiplun/.desktop/main/SpotifyAdblock.desktop" -P ~/.local/share/applications
 ```
 
 ## Manual

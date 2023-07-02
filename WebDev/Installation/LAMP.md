@@ -1,10 +1,9 @@
 ## To Install LAMP On Fedora
 
-LAMP is an open source Web development platform that uses Linux as the 
-operating system, Apache as the Web server, MySQL as the relational 
-database management system and PHP As the object-oriented scripting 
+LAMP is an open source Web development platform that uses Linux as the
+operating system, Apache as the Web server, MySQL as the relational
+database management system and PHP As the object-oriented scripting
 language. (Sometimes Perl or Python is used instead of PHP.)
-
 
 **Install the Apache package**
 

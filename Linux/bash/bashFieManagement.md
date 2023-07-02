@@ -7,19 +7,19 @@ To permanently remove a directory in Linux, use either **rmdir** or **rm** comma
 
 Before you remove a directory, you need to know the name of it. To discover files and directories, use the **ls** command, and to know the current directory you are in, use the **pwd** command.
 
-|     |     |
-| --- | --- |
-| **Command and Option** | **Description** |
-| rm -d | Remove an empty directory using the **rm** command. |
-| rm -r | Remove a non-empty directory and its content. |
-| rm -f | Ignore any prompt when deleting a write-protected file. |
-| rm -rf | Ignore any prompt when deleting a write-protected non-empty folder. |
-| rm -i | Output a prompt before deleting every file. |
-| rm -I | Output a prompt only once before deleting more than three files. |
-| rm * | Wildcard that represents multiple characters. |
-| rm ? | Wildcard that represents a single character. |
-| rmdir -p | Remove an empty subdirectory and its parent directory. |
-| rmdir -v | Print the information that the specified directory was deleted. |
+|                        |                                                                     |
+| ---------------------- | ------------------------------------------------------------------- |
+| **Command and Option** | **Description**                                                     |
+| rm -d                  | Remove an empty directory using the **rm** command.                 |
+| rm -r                  | Remove a non-empty directory and its content.                       |
+| rm -f                  | Ignore any prompt when deleting a write-protected file.             |
+| rm -rf                 | Ignore any prompt when deleting a write-protected non-empty folder. |
+| rm -i                  | Output a prompt before deleting every file.                         |
+| rm -I                  | Output a prompt only once before deleting more than three files.    |
+| rm \*                  | Wildcard that represents multiple characters.                       |
+| rm ?                   | Wildcard that represents a single character.                        |
+| rmdir -p               | Remove an empty subdirectory and its parent directory.              |
+| rmdir -v               | Print the information that the specified directory was deleted.     |
 
 ### How to Remove an Empty Directory (rmdir Command)
 
@@ -147,17 +147,17 @@ rm -f file.txt
 
 `rm -f file.txt`
 
-The commands we’ve discussed so far will delete specific files. However, using wildcards, you can delete multiple files with a single command. There are two types of wildcards – the asterisk (*****) and the question mark (**?**).
+The commands we’ve discussed so far will delete specific files. However, using wildcards, you can delete multiple files with a single command. There are two types of wildcards – the asterisk (**\***) and the question mark (**?**).
 
 The asterisk represents multiple unknown characters, and one of the most common use examples is deleting files with a certain extension. The command below will delete all **.txt** files in the current working directory:
 
-rm *.txt
+rm \*.txt
 
 `rm *.txt`
 
 You can also use the asterisk to delete all files beginning with a specific letter.
 
-rm a*
+rm a\*
 
 `rm a*`
 
@@ -165,7 +165,7 @@ In the example above, the asterisk represents all unknown characters that come a
 
 The question mark wildcard, on the other hand, represents a single character. In conjunction with the asterisk wildcard, you can use it to delete files with a single character extension, such as **.S**, **.O**, and **.C**.
 
-rm *.?
+rm \*.?
 
 `rm *.?`
 

@@ -4,8 +4,7 @@
 
 <u>Step 1: </u> [Download from here ](https://sourceforge.net/projects/xampp/files/XAMPP%20Linux/)
 
-
-<u>Step 2:</u> make download xampp-linux*.run to **executable**
+<u>Step 2:</u> make download xampp-linux\*.run to **executable**
 
 ```bash
 sudo chmod 755 xampp-linux*.run
