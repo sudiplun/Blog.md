@@ -10,8 +10,8 @@ navigated to `/etc/default/grub`
 
 ```bash
 GRUB_TIMEOUT=0
-~~GRUB_HIDDEN_TIMEOUT_QUIET=true~~
-~~GRUB_TIMEOUT_STYLE=hidden~~
+# GRUB_HIDDEN_TIMEOUT_QUIET=true
+# GRUB_TIMEOUT_STYLE=hidden
 GRUB_DISTRIBUTOR="$(sed 's, release .*$,,g' /etc/system-release)"
 GRUB_DEFAULT="saved"
 GRUB_DISABLE_SUBMENU="true"
