@@ -2,10 +2,10 @@
 
 To use the `pdftoppm` command-line tool, you need to first install `pdftoppm` which is a part of the poppler / poppler-utils / poppler-tools package. Install this package as follows depending on your Linux distribution
 
-`sudo apt install poppler-utils` [On Debian/Ubuntu & Mint]
-`sudo dnf install poppler-utils ` [On RHEL/CentOS & Fedora]
-`sudo zypper install poppler-tools ` [On OpenSUSE]
-`sudo pacman -S poppler  ` [On Arch Linux]
+`sudo apt install poppler-utils` [On Debian/Ubuntu & Mint] <br>
+`sudo dnf install poppler-utils` [On RHEL/CentOS & Fedora] <br>
+`sudo zypper install poppler-tools` [On OpenSUSE] <br>
+`sudo pacman -S poppler` [On Arch Linux] <br>
 
 ### Convert PDF Document to Image
 
