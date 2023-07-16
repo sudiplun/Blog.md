@@ -1,4 +1,4 @@
-  <zero-md src="">
+<zero-md src="">
   <script
     type="module"
     src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
