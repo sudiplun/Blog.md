@@ -108,9 +108,17 @@
 
   Manage your personal finances
 
+## for md file
+
 - [Joplin](https://flathub.org/apps/net.cozic.joplin_desktop)
 
   Note and to-do taker
+
+- [Obsidian](https://obsidian.md/download)
+
+```bash
+flatpak install flathub md.obsidian.Obsidian
+```
 
 - [Marktext](https://github.com/marktext/marktext/releases)
 
