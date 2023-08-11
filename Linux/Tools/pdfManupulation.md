@@ -2,25 +2,57 @@
 
 To use the `pdftoppm` command-line tool, you need to first install `pdftoppm` which is a part of the poppler / poppler-utils / poppler-tools package. Install this package as follows depending on your Linux distribution
 
-`sudo apt install poppler-utils` [On Debian/Ubuntu & Mint] <br>
-`sudo dnf install poppler-utils` [On RHEL/CentOS & Fedora] <br>
-`sudo zypper install poppler-tools` [On OpenSUSE] <br>
-`sudo pacman -S poppler` [On Arch Linux] <br>
+On Debian/Ubuntu & Mint
+
+```bash
+sudo apt install poppler-utils
+```
+
+On RHEL/CentOS & Fedora
+
+```bash
+sudo dnf install poppler-utils
+```
+
+On OpenSUSE
+
+```bash
+sudo zypper install poppler-tools
+```
+
+On Arch Linux]
+
+```bash
+sudo pacman -S poppler
+```
 
 ### Convert PDF Document to Image
 
-`pdftoppm -<image_format> <pdf_filename> <image_name>`
+```bash
+pdftoppm -<image_format> <pdf_filename> <image_name>
+```
 
-[more detials](https://www.tecmint.com/convert-pdf-to-image-in-linux-commandline/)
+[tecmint](https://www.tecmint.com/convert-pdf-to-image-in-linux-commandline/)
 
 ### Imagemagick for image to pdf
 
-`sudo apt install imagemagick` [On Debian]
+On Debian
 
-`sudo dnf install imagemagick` [On RHEL/CentOS & Fedora]
+```bash
+sudo apt install imagemagick
+```
+
+On RHEL/CentOS & Fedora
+
+```bash
+sudo dnf install imagemagick
+```
 
 In that case, all you need is to edit the **policy.xml** file using an editor like vim.
-`sudo vim /etc/ImageMagick-6/policy.xml`
+
+```bash
+sudo vim /etc/ImageMagick-6/policy.xml
+```
 
 Look for the line in the following example:
 <policy domain="coder" rights="none" pattern="PDF" />
@@ -28,4 +60,6 @@ To fix the error, replace the rights from “none” to “read|write”
 
 ### To jpg to pdf
 
-`convert *.jpg all.pdf`
+```bash
+convert *.jpg all.pdf
+```
