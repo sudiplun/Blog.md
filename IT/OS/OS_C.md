@@ -1,6 +1,6 @@
-#### C Program to simulate the following CPU Scheduling Algorithms
+## C Program to simulate the following CPU Scheduling Algorithms
 
-##### First Come First Serve (FCFS)
+### First Come First Serve (FCFS)
 
 ```c
 #include<stdio.h>
@@ -37,7 +37,7 @@ int main() {
 }
 ```
 
-##### SJF (Shortest Job First)
+### SJF (Shortest Job First)
 
 ```C
 #include<stdio.h>
@@ -88,7 +88,7 @@ int main() {
 }
 ```
 
-##### Round Robin(RR)
+### Round Robin(RR)
 
 ```c
 #include <stdio.h>
@@ -145,7 +145,7 @@ main()
     }
 ```
 
-##### Priority Scheduling
+### Priority Scheduling
 
 ```c
 #include <stdio.h>
@@ -217,9 +217,9 @@ int main()
 }
 ```
 
-#### C Program to simulate Bankers Algorithm for:
+## C Program to simulate Bankers Algorithm for:
 
-##### Bankers Algorithm for Deadlock Avoidance
+### Bankers Algorithm for Deadlock Avoidance
 
 ```c
 #include <stdio.h>
@@ -333,7 +333,7 @@ int main()
     }
 ```
 
-##### Bankers Algorithm for Deadlock Prevention
+### Bankers Algorithm for Deadlock Prevention
 
 ```c
 #include <stdio.h>
@@ -413,7 +413,7 @@ main()
               }
 ```
 
-#### C Program to implement the Producer-Consumer problem using Semaphores (Using UNIX/LINUX) System Calls.
+## C Program to implement the Producer-Consumer problem using Semaphores (Using UNIX/LINUX) System Calls.
 
 ```c
 #include <stdio.h>
@@ -480,9 +480,9 @@ void consumer()
 }
 ```
 
-#### C Program to illustrate the Following IPC mechanism:
+## C Program to illustrate the Following IPC mechanism:
 
-##### PIPE PROCESSING
+### PIPE PROCESSING
 
 ```c
 #include <unistd.h>
@@ -542,7 +542,7 @@ void consumer()
     }
 ```
 
-##### FIFO
+### FIFO
 
 ```c
 #include <stdio.h>
@@ -589,7 +589,7 @@ int main(int argc, char *argv[])
 }
 ```
 
-##### Message Queue (Writer Process)
+### Message Queue (Writer Process)
 
 ```c
 #include <stdio.h>
@@ -622,9 +622,9 @@ int main()
 }
 ```
 
-#### C Program to simulate the following Memory Management Techniques
+## C Program to simulate the following Memory Management Techniques
 
-##### Paging Techniques
+### Paging Techniques
 
 ```c
 #include <stdio.h>
@@ -671,7 +671,7 @@ getch();
 }
 ```
 
-##### Page Segmentation
+### Page Segmentation
 
 ```c
 #include <stdio.h>
