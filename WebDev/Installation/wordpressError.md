@@ -1,5 +1,5 @@
-well,see step to install[install-xampp-on-any-linux-distro](https://luniox.blogspot.com/2023/06/how-to-install-xampp-on-any-linux-distro.html)
-on linux. <br> this below step are for those who able to setup xammp on their machice.<br>
+well,see step to [install-xampp-on-any-linux-distro](https://luniox.blogspot.com/2023/06/how-to-install-xampp-on-any-linux-distro.html) on linux. <br>
+This below step are for those who able to setup xammp on their machice.<br>
 Download wordpress from <a href="https://wordpress.org/download/">link</a>
 first you have you have to create file by own on your directory that install wordpress called `wp-config.php`
 and paste given by wordpress
@@ -12,7 +12,7 @@ Please enter your FTP credentials to proceed. If you do not remember your creden
 ```
 
 after searching,found this [solution](https://wordpress.org/support/topic/to-perform-the-requested-action-wordpress-needs-to-access-your-web-server-2/) <br>
-**but** <br> 
+**but** <br>
 you have to add this
 
 ```php
