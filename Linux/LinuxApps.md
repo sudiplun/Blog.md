@@ -110,9 +110,7 @@
 
 ## for md file
 
-- [Joplin](https://flathub.org/apps/net.cozic.joplin_desktop)
-
-  Note and to-do taker
+Note and to-do taker
 
 - [Obsidian](https://obsidian.md/download)
 
@@ -123,6 +121,8 @@ flatpak install flathub md.obsidian.Obsidian
 - [Marktext](https://github.com/marktext/marktext/releases)
 
   A simple and elegant open-source markdown editor that focused on speed and usability.
+
+- [Joplin](https://flathub.org/apps/net.cozic.joplin_desktop)
 
 - [Minder](https://flathub.org/apps/com.github.phase1geo.minder)
 
@@ -142,7 +142,10 @@ flatpak install flathub md.obsidian.Obsidian
 
 - [Bitwarden](https://bitwarden.com/download/)
 
-  Password Manager
+  Password Manager with online store
+
+-  KeepassXC
+  Password Manager with local DB and TOKP
 
 - [Morgen](https://www.morgen.so/onboarding/download?first=sudeep&email=sudeeplun@gmail.com)
 

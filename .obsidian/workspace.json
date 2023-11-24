@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "1f3a87776c533c49",
+    "type": "split",
+    "children": [
+      {
+        "id": "9393dce6c809a567",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c4f560cb6b4e6e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "WebDev/Installation/LAMPeasyinstall.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6f35727557920873",
+    "type": "split",
+    "children": [
+      {
+        "id": "d10709dc29d23bee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f11386e83a7f88eb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9bfbc5bf37ea62af",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "175aedb6f537a2e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "6c943aa5dc00e977",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff4ca288b88235ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adb80c4210e16a66",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "WebDev/Installation/LAMPeasyinstall.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd0e32024294f431",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "WebDev/Installation/LAMPeasyinstall.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d35aa7533f0a3def",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "37595c4ed52e5f8f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "WebDev/Installation/LAMPeasyinstall.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8c4f560cb6b4e6e8",
+  "lastOpenFiles": [
+    "WebDev/Installation/LAMP.md",
+    "Linux/LinuxApps.md",
+    "Linux/Tools/wgetURL.md",
+    "Linux/bash/nmclipasswd.md",
+    "Linux/bash/Find_and_Move.md",
+    "Linux/bash/FileManagement.md",
+    "Linux/bash/appimageExtract.md",
+    "Linux/config/system/grubFedora.md",
+    "Linux/bash/changePermission.md",
+    "IT/OS/OS_C.md",
+    "images/rust.png",
+    "Editor/Vim/vimkey.md",
+    "Editor/Vim/usefulLinks.md",
+    "DB/SQLbasicDB.md"
+  ]
+}
